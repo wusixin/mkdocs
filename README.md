@@ -20,12 +20,16 @@ return json.dumps(page_dicts, sort_keys=True,ensure_ascii=False, indent=4)
 4. Make it a pip module
 
 ## Installation
+Of cource, you need python installed to use mkdocs.
 ```
 # uninstall OFFICIAL MkDocs first
 pip uninstall mkdocs
 
 # install from github
-pip install https://github.com/wusixin/mkdocs.cn
+pip install git+https://github.com/wusixin/mkdocs.cn
+
+# or, install from github zip archive, faster
+pip install https://codeload.github.com/wusixin/mkdocs.cn/zip/master
 ```
 
 ## Usage
